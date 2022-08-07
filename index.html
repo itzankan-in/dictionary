@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Dictionary</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+    <div class="blur-container"></div>
+    <div class="pre-ift">
+    <div class="ift-container">
+        <h1 class="hone">Welcome to Simple Dictionary</h1>
+        <div class="pone-holder">
+        <p class="pone">Welcome to Simple Dictionary &copy. Its a simple and easy to use Dictionary, it currently is under <a href="https://itzankan-in.github.io" target="_blank">itzankan-in.github.io</a>. It is actively managed by me, Ankan.
+            you want to check my other projects, you should pay a visit to my <a href="https://github.com/itzankan-in" target="_blank">github porfile </a>:D.
+        </p></div>
+        <br>
+  
+   <button class="btn btn-Cont">Continue to website</button>
+    <p class="pone">By clicking on this button you are agreeeing to our terms and policy.</p>
+    </div>
+</div>
+
+    <!-- Nav -->
+    <nav class="main-nav">
+        <p class="pto">Simple Dictionary </p>
+        
+        <div class="search-box">
+            <input class="search" id="search" type="text" placeholder="Search your word">
+            <button class=" btn2 btn-Search">Search</button>
+        </div>
+    </nav>
+    <div class="dictionary">
+        <div class="wordContainer">
+            <h1 class="mainWord hto"></h1>
+            
+            <div class="any">
+                <audio class="mainAudio"></audio>
+                <h1 class="phonetics" style="margin-left: 1.5rem;"></h1>
+            <i class="material-icons audioBtn" onclick="playAUD()">volume_up</i>
+        </div>
+        </div>
+        
+            <h1 class="hone" style="text-decoration: underline;">Definitions:-</h1>
+            <div class="definitions">
+        </div>
+        
+            <div class="history">
+        </div>
+</div>
+<div class="alert-container">
+<div class="alert"><span style="text-align: center;">The word that you have searched couldn't be found. Try again with other words.</span>   
+    <button class="btn" onclick="quit()">Quit</button>
+</div>
+
+</div>
+    <script src="js/app.js"></script>
+</body>
+</html>
