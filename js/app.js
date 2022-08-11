@@ -88,7 +88,8 @@ function searchWord(word) {
 
 }
 function quit() {
-    alert.style.display = "none"
+    alert.style.display = "none";
+    searchWord("hello");
 }
 
 
